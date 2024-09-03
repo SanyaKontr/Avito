@@ -1,0 +1,67 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: IntroCondBlackFree;
+  src: url(IntroCondBlackFree.otf);
+}
+.section {
+  background-image: url(img/background.jpg);
+  width: 1920px;
+  height: 1080px;
+}
+
+.logo {
+  padding-top: 55px;
+  padding-left: 58px;
+  height: 35px;
+}
+
+.mainTextTitle {
+  padding-top: 95px;
+  padding-left: 470px;
+}
+
+.mainText {
+  font-family: "IntroCondBlackFree", monospace;
+  font-size: 98px;
+  color: rgb(184, 255, 0);
+  letter-spacing: 3px;
+  text-shadow: 5px -1px rgb(118, 63, 55);
+}
+
+.descCard__img {
+  height: 200px;
+}
+
+.descCard {
+  display: flex;
+  flex-direction: row;
+  padding-left: 250px;
+  padding-right: 250px;
+  justify-content: space-between;
+  padding-top: 130px;
+}
+
+.descCard__text {
+  font-family: "IntroCondBlackFree", monospace;
+  font-size: 70px;
+  color: rgb(184, 255, 0);
+  text-shadow: 5px -1px rgb(118, 63, 55);
+  padding-top: 40px;
+  letter-spacing: 2px;
+}
+
+.descCard__text_char {
+  font-family: "Roboto", sans-serif;
+  font-size: 48px;
+  color: rgb(184, 255, 0);
+}
+
+.descCard__option {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}/*# sourceMappingURL=style.css.map */
